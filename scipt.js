@@ -92,6 +92,7 @@ var after=document.querySelector("#after");
 var inputs=document.querySelectorAll("input");
 var correctbar=document.querySelector("#correctbar");
 var wrongbar=document.querySelector("#wrongbar");
+var header=document.querySelector('#quiz_header')
 
 var index=0;
 
@@ -157,12 +158,14 @@ if(index===9){
 go.addEventListener('click',()=>{
 container.style.display="inline-block";   
 go.style.display="none";
+header.style.display="none";
 });
 btnf.addEventListener("click", () => {
              
     submit();
     result(); 
     bar();
+    alert("you are submitting the quiz");
     btnf.style.display="none";
     container.style.display="none";         
     container1.style.display="inline-block";    

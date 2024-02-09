@@ -1,5 +1,5 @@
 body{
-    background: url(wallpaper.jpg);
+    background: url(wallpaper/wallpaper.jpg);
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -19,6 +19,19 @@ body{
     top: 50%;
      left: 50%;
      transform: translate(-50%,-50%);
+}
+#quiz_header{
+     display: inline-block;
+     position: absolute;
+     font-size: 90px;
+     font-weight: 2000;
+     background-image: url(wallpaper/4.jpg);
+   background-size: contain;
+   background-clip: text;
+   color: transparent;
+     left: 50%;
+      transform: translateX(-50%);
+
 }
 #heading{
     display: inline-block;
@@ -207,7 +220,7 @@ input{
     top: 85%;
     width: 40%;
     height: 10%;
-    background-color: rgb(3, 201, 0);
+    background-color: red;
     font-size: 20px;
     left: 30%;
     font-weight: bolder;
