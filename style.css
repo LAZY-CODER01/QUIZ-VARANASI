@@ -299,6 +299,12 @@ input{
   top: 20%;
   left: 20%;
 }
+#back{
+  top: 3%;
+  left: 1%;
+  /* position: absolute; */
+display: none;
+}
 @media (max-width:786px) {
   #container{
     height: 80vh;
@@ -353,5 +359,54 @@ color: blue;
   /* margin: 0px auto; */
   /* left: 0%; */
   /* background-color: rgb(240, 248, 255,0.75); */
+}
+#wrong,#correct{
+  display: inline-block;
+  position: absolute;
+  height: 50px;
+  width: 90%;
+  background-color: #F8F005;
+  
+  /* border: 20px solid red; */
+ 
+}
+#correctbar{
+  font-size: 30px;
+  color: white;
+  height: 100%;
+  width: 80%;
+  background-color: #FF013C;
+  text-align: center;
+   
+}
+#wrongbar{
+  text-align: center;
+  font-size: 30px;
+  color: white;
+  height: 100%;
+  width: 10%;
+  background-color: #FF013C;
+}
+#wrong{
+  top: 70%;
+  left: 10%;
+}
+#correcttext,#wrongtext{
+ 
+  display: inline-block;
+  position: absolute;
+  height: 50px;
+  width: 400px;
+  text-align: center;
+  /* background-color: #00E6F6; */
+  font-size: 15px;
+}
+#wrongtext{
+  top: 60%;
+  left: 4%;
+}
+#correcttext{
+  top: 20%;
+  left: 4%;
 }
 }
